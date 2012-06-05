@@ -57,7 +57,9 @@ Creating Application:
 Then it gives the application structure as:
 
 sample-app
+  
   |
+  
   *----app/(contains MVC controllers, views, models, helpers)
   |
   *----autotest/(contains merb_rspec.rb)
