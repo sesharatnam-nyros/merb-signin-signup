@@ -22,7 +22,7 @@ Merb is a web development framework for fast, simple, and powerful development.
 Installation:
  
  ->Install merb along with its dependencies,The fastest way to get up and running with Merb is to install 
-with RubyGems. From "http://merbivore.com".
+with RubyGems. From http://merbivore.com.
 
 Database:
  
@@ -54,6 +54,7 @@ ORM:
 Creating Application:
  
  $ merb-gen app merb-signin-signup #Yourappname
+ 
 Then it gives the application structure as:
 
 merb-signin-signup
@@ -105,6 +106,7 @@ For creating models:
     merb-gen model admin
     
 To connect with controllers views we have to create models 
+
 To use models with mysql we need to create schema/migrations
 
 For creating schema:
@@ -112,7 +114,9 @@ For creating schema:
     merb-gen migration admin_table --orm datamapper
     
 Then goto command prompt and run rake db:create
+
 You will see creating database
+
 then rake db:migrate,After that goto command prompt and check the database and tables by usual mysql commands.
 
 3.REQUIREMENTS:
