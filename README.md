@@ -53,7 +53,7 @@ ORM:
 
 Creating Application:
  
- $ merb-gen app Sample-app #Yourappname
+ $ merb-gen app merb-signin-signup #Yourappname
 Then it gives the application structure as:
 
 sample-app
