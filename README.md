@@ -59,29 +59,40 @@ Then it gives the application structure as:
 merb-signin-signup
   
   |
+  
   *----app/(contains MVC controllers, views, models, helpers)
   
   |
+  
   *----autotest/(contains merb_rspec.rb)
   
   |
+  
   *----config/(contains Database details dependencies.rb, .yml, init.rb)
   
   |
+  
   *----doc/
   |
-  	*----gems/  
+  
+  *----gems/  
   |
+  
   *----log/
   |
+  
   *----merb/(Authentication)
   |
+  
   *----public/(stylesheets, Jquery files)
   |
+  
   *----spec/
   |
+  
   *----tasks/ 
   |
+  
   *----Rakefile
  
  $ cd merb-signin-signup
