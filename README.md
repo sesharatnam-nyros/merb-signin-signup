@@ -56,19 +56,18 @@ Creating Application:
  $ merb-gen app merb-signin-signup #Yourappname
 Then it gives the application structure as:
 
-sample-app
+merb-signin-signup
   
   |
-  
-  *----app/(contains MVC controllers, views, models, helpers)
+    *----app/(contains MVC controllers, views, models, helpers)
   |
-  *----autotest/(contains merb_rspec.rb)
+  	*----autotest/(contains merb_rspec.rb)
   |
-  *----config/(contains Database details dependencies.rb, .yml, init.rb)
+ 	 *----config/(contains Database details dependencies.rb, .yml, init.rb)
   |
-  *----doc/
+  	*----doc/
   |
-  *----gems/  
+  	*----gems/  
   |
   *----log/
   |
@@ -82,7 +81,7 @@ sample-app
   |
   *----Rakefile
  
- $ cd sample-app
+ $ cd merb-signin-signup
  
  $ merb
 
