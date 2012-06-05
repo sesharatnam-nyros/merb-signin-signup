@@ -59,13 +59,16 @@ Then it gives the application structure as:
 merb-signin-signup
   
   |
-    *----app/(contains MVC controllers, views, models, helpers)
+  *----app/(contains MVC controllers, views, models, helpers)
+  
   |
-  	*----autotest/(contains merb_rspec.rb)
+  *----autotest/(contains merb_rspec.rb)
+  
   |
- 	 *----config/(contains Database details dependencies.rb, .yml, init.rb)
+  *----config/(contains Database details dependencies.rb, .yml, init.rb)
+  
   |
-  	*----doc/
+  *----doc/
   |
   	*----gems/  
   |
