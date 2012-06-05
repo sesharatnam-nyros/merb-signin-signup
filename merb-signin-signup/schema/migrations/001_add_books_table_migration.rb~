@@ -1,0 +1,9 @@
+migration 1, :add_books_table  do
+  up do
+	
+  end
+
+  down do
+	
+  end
+end

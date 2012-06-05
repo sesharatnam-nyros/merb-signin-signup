@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16px; 
+  background-color: #fff;
+  color:#333;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+h2{
+	color: black;
+}
+h1{
+	color:#ccc;
+}
+#user{
+	color:#ccc;
+	margin-left:330px;
+	margin-top:80px;
+}
+h4{
+	margin-bottom:20px;
+}
+p{
+	margin-bottom:10px;
+}
+span a{
+	font-size:14px;
+}
+#log{
+	margin-left:30px;
+	margin-top:30px;
+}
+#not{
+	margin-left:430px;
+}
+#light{
+	font-size:14px;
+}
+#signupform{
+	padding-left:30px;
+}
+#cnfrmpwd{
+	display:none;
+}
+#show{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.email{
+	margin-left:90px;
+}
+#password{
+	margin-left:60px;
+}
+.name{
+	margin-left:58px;
+}
+#cpassword{
+	margin-left:5px;
+}
+#error{
+	display:none;
+	color:red;
+	font-size:14px;
+}
+
+span a{
+	color:#0088cc;
+}
+
+#right{
+	float:right;
+	margin-right:20px;
+}
+.reset{
+	display:none;
+}
+.register{
+	display:none;
+}

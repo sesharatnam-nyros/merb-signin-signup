@@ -1,0 +1,7 @@
+"haii"
+<h1>Creating new post</h1>
+<%= form_for @task, :action => 'create' do %>
+  <%= text_field :title, :label => 'Title' %><br/>
+  <%= text_area :body, :label => 'Body' %><br/>
+  <%= submit 'New post' %>
+<% end =%>

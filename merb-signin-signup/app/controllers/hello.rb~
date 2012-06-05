@@ -1,0 +1,18 @@
+require 'rubygems'
+require 'active_record'
+
+class HelloWorld < Application
+  def index
+ 
+    	ActiveRecord::Base.establish_connection(
+  	:adapter  => "mysql",
+  	:host     => "localhost",
+ 	 :username => "root",
+ 	 :password => "root",
+  	:database => "admin_panel"
+	)
+	puts "connted...."
+	
+  end
+ 
+end

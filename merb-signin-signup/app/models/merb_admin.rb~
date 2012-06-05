@@ -1,0 +1,10 @@
+class MerbAdmin
+  include DataMapper::Resource
+end
+@admin = Admin.create(
+			  :username =>"admin",
+			  :password =>"admin",
+			  :email =>"swetha.s2308@gmail.com")
+
+
+  

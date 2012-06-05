@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Signin form</title>
+<link rel="stylesheet" href="/stylesheets/master.css" type="text/css"/>
+</head>
+<body>
+<p id="right">
+Welcome<%= @param %>&nbsp;&nbsp; <a href="/task/index">Logout</a>
+</p>
+<h1 id="log"> Successfully login</h1>
+</body>
+</html>

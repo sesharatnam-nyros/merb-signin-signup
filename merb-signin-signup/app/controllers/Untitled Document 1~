@@ -1,0 +1,24 @@
+
+class Task < Application
+
+
+  def index
+	render
+  end
+   
+  def new 
+	puts " =======*******======== "
+	if params['name']=='admin' and params['password']=='admin'
+    	redirect(url(:controller => 'task',:action => 'show'))
+	else
+	redirect(url(:controller => 'task',:action => 'index'))
+   
+  end 
+ end
+  def show 
+	
+	 
+	redirect(url(:controller => 'task',:action => 'new'))
+  end  	
+
+end 

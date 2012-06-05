@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Merb App</title>
+<link rel="stylesheet" href="/stylesheets/master.css" type="text/css"/>
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.validate.js"></script>
+<link rel="stylesheet" type="text/css" href="/stylesheets/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+$(document).ready(function(){
+
+		$("#light").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: '1000',
+				'transitionOut'		: '1000'
+		}).trigger("click");
+		$("#error").hide();
+		$("#forget").click(function(){
+			        $("#paswrd").slideToggle();	
+				$("#account,#cnfrmpwd").toggleClass("disable");
+				if($("#account").hasClass("disable")){				
+				$("#forget").text("Never mind I rememberd it");
+				$("#account").hide();
+				$("#s,#h").text("Resetpassword")}
+				else{$("#forget").text("Forget your password ?");
+				$("#s,#h").text("signin")				
+				$("#account").show()}
+				return false;
+		});
+		$("#account").click(function(){
+				$("#cnfrmpwd").slideToggle();
+				$("#forget").toggleClass("disable");
+				if($("#forget").hasClass("disable")){
+				$("#account").text("Never mind I have an account");
+				$("#forget").hide();
+				$("#s,#h").text("signup")}
+				else{$("#account").text("Don't yet have an account?");
+				$("#s,#h").text("signin")
+				$("#forget").show()}
+				return false;
+		});
+		$(".submit").click(function(event){
+				var name=$(this).attr("class");
+				$("#err").find(":input").each(function(){
+					if(!$(this).val()) {
+						$("#error").show();
+						return false;
+					}
+					else{
+						$("#form").attr("action", "/new");
+						return true;}
+				});
+
+		});
+		
+});
+</script>
+
+</head>
+<body>
+<div id="main">
+<h1>User Management</h1>
+Not signed in <a href="#signin" id="light"> Signin Now</a>
+</div>
+<div style="display: none;">
+	<div id="signin" style="width:450px;overflow:auto;">
+		<h1 id="h">Signin</h1><br/> 
+		<div id="signupform">
+			<h4>You must have an account</h4>
+			<p id="error">Could not log you in with those credentials. Please try again.</p>
+			<form action="/task/new" method="post" id="form" >
+				<div id="err">
+				<p>
+					<label for="name" id="name">Username:</label>
+					<input class="name" name="name" type="name" />
+				</p>
+
+				<p id="paswrd">
+					<label for="password" id="pwd"> Password:</label>
+					<input id="password" name="password" type="password" />
+				</p>
+				</div>
+				<div id="cnfrmpwd">
+				<p>
+					<label for="cpassword" id="cpwd" > ConfirmPassword:</label>
+					<input id="cpassword" name="cpassword" type="password" />
+				</p>
+				<p>
+					<label for="email" id="email">Email:</label>
+					<input class="email" name="email" type="email" />
+				</p>
+				</div>
+				<div id="show">
+				<span ><a href="" id="forget">Forget password?</a></span>
+				<span ><a href="" id="account">Don't yet have an account?</a></span>
+				</div>
+
+				<p>
+				<input type="submit" value="signin" class="submit" id="s">
+			<!--	<%= link_to 'signin', url(:controller => :task, :action => :new), 
+:id => 's' , :class => 'submit' %> -->
+				</p>
+				
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>

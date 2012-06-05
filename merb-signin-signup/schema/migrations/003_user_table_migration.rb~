@@ -1,0 +1,16 @@
+migration 3, :user_table  do
+  up do
+	create_table :users do
+		column :id, Integer, :serial=>true,:nullable=>false
+		column :username, String
+		column :password, String
+		column :conformpassword, String
+		column :email, String
+		
+  end
+end
+
+  down do
+	drop_table :users
+  end
+end

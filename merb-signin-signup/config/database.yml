@@ -1,0 +1,11 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: merb_admin
+  username: root
+  password: root
+  host: localhost
+  port: 3306
+  reconnect: true
+  socket: /var/run/mysqld/mysqld.sock
+
