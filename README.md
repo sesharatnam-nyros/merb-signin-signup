@@ -1,15 +1,11 @@
-merb-signin-signup
-
-==================
-
-merb-signin-signup application deals with signin and signup process
 
 1.ABOUT THIS APPLICATION:
 
 ========================
 *****Merb-SignIn-SignUp*****
 Merb is a web development framework for fast, simple, and powerful development.
-"Merb-SignIn-SignUp" helps you to add simple SignIn/SignUp to your web apps.
+
+"Merb-SignIn-SignUp" app is built on Merb and provides User Sign In Sign Up process and helps you to add simple SignIn/SignUp to your web apps.
  
  Database Authenticatable:  validate the authenticity of a user while signin.
  
