@@ -1,17 +1,22 @@
 merb-signin-signup
+
 ==================
 
 merb-signin-signup application deals with signin and signup process
 
 1.ABOUT THIS APPLICATION:
+
 ========================
 *****Merb-SignIn-SignUp*****
 Merb is a web development framework for fast, simple, and powerful development.
 "Merb-SignIn-SignUp" helps you to add simple SignIn/SignUp to your web apps.
  Database Authenticatable:  validate the authenticity of a user while signin.
  Registerable: handles signing up users through a signup process.
+ 
 2.INSTALLATION:
+
 ==============
+
 Installation:
  ->Install merb along with its dependencies,The fastest way to get up and running with Merb is to install 
 with RubyGems. From "http://merbivore.com".
@@ -19,8 +24,10 @@ Database:
  ->By default, in merb it includes "SQLite3", it also supports "Mysql", "PostgreSQL " by installing 
 "do_mysql", "do_postgresql"
  ->In this app used mysql 
+ 
       development:
     adapter: mysql
+    
 	  encoding: utf8
 	  database: merb_admin
 	  username: root
@@ -66,20 +73,34 @@ sample-app
 You can check your app by typing the following address in Browser "localhost:4000/task" 
 
 For creating controllers:
+
     merb-gen controller task
+    
 For creating models:
+
     merb-gen model admin
+    
 To connect with controllers views we have to create models 
 To use models with mysql we need to create schema/migrations
+
 For creating schema:
+
     merb-gen migration admin_table --orm datamapper
+    
 Then goto command prompt and run rake db:create
 You will see creating database
 then rake db:migrate,After that goto command prompt and check the database and tables by usual mysql commands.
+
 3.REQUIREMENTS:
+
 ==============
+
 You have Merb 1.0.15, Ruby 1.8.7 versions and higher.
+
 4.WHAT THIS APPLICATION CONTAINS:
+
 ================================
+
 1.index.html.erb: It contains SignIn and SignUp with jquery Effects and validations.
+
 2.new.html.erb: It Shows the user loginned successfully with logout.
