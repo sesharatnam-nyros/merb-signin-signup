@@ -130,7 +130,9 @@ You have Merb 1.0.15, Ruby 1.8.7 versions and higher.
 2.new.html.erb: It Shows the user loginned successfully with logout.
 
 
+5.SCREENSHOT:
+
+============
 
 
-
-[![mutt dark](https://github.com/sesharatnam-nyros/merb-signin-signup/blob/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg)](https://github.com/sesharatnam-nyros/merb-signin-signup/blob/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg)
+<img style="max-width:100%;" src="https://github.com/sesharatnam-nyros/merb-signin-signup/blob/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg" alt="signin-signup" title="signin-signup">
