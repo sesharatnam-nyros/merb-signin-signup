@@ -133,4 +133,4 @@ You have Merb 1.0.15, Ruby 1.8.7 versions and higher.
 
 
 
-[![mutt dark](https://github.com/sesharatnam-nyros/merb-signin-signup/blob/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg)]
+[![mutt dark](https://github.com/sesharatnam-nyros/merb-signin-signup/blob/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg)](https://github.com/sesharatnam-nyros/merb-signin-signup/blob/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg)
