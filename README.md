@@ -135,4 +135,4 @@ You have Merb 1.0.15, Ruby 1.8.7 versions and higher.
 ============
 
 
-<img style="max-width:100%;" src="https://github.com/sesharatnam-nyros/merb-signin-signup/blob/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg" alt="signin-signup" title="signin-signup">
+<img style="max-width:100%;" src="https://github.com/sesharatnam-nyros/merb-signin-signup/raw/master/screenshots/Screenshot%20at%202012-06-07%2009:58:56.jpg" alt="signin-signup" title="signin-signup">
